@@ -20,21 +20,25 @@ The tool helps security researchers and penetration testers quickly identify exp
 Make sure you have Python 3 installed. You also need to install the `requests` library:
 
 ```bash
-pip install requests```
+pip install requests
+```
 
 Download the script and the Tomas.txt file to your working directory. Tomas.txt should contain a list of paths to check, one per line.
 
 Alternatively, you can clone the repository:
 ```bash
-git clone https://github.com/Toma1264git0hub/Site-databases-.git```
+git clone https://github.com/Toma1264git0hub/Site-databases-.git
+```
 ```bash
-cd Site-databases-```
+cd Site-databases-
+```
 
 Usage
 
 Run the Python script:
 ```bash
-python3 Adol.py```
+python3 Adol.py
+```
 
 You will be prompted to enter the target site URL (e.g., http://example.com). The script will then scan the site for exposed database backup files listed in Tomas.txt.
 
